@@ -28,8 +28,7 @@
   --spacing-24: 6rem;
   --spacing-32: 8rem;
   --fontFamily-sans: "Inter", system-ui;
-  --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
-    Times, serif;
+  --fontFamily-serif: "Merriweather", Times, serif;
   --font-body: var(--fontFamily-serif);
   --font-heading: var(--fontFamily-sans);
   --fontWeight-normal: 400;
@@ -53,7 +52,7 @@
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
   --color-primary: #2c84c7;
-  --color-text: #1e293b;
+  --color-text: #000000;
   --color-text-light: #4f5969;
   --color-heading: #1a202c;
   --color-heading-black: black;
@@ -77,8 +76,9 @@ html {
 
 body {
   font-family: var(--font-body);
-  font-size: var(--fontSize-2);
+  font-size: var(--fontSize-1);
   color: var(--color-text);
+  font-weight:400; 
 }
 
 footer {
@@ -198,11 +198,12 @@ blockquote {
   color: var(--color-text-light);
   margin-left: calc(-1 * var(--spacing-6));
   margin-right: var(--spacing-8);
-  padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-6);
+  padding: var(--spacing-5) var(--spacing-0) var(--spacing-5) var(--spacing-6);
   border-left: var(--spacing-1) solid var(--color-primary);
   font-size: var(--fontSize-2);
   font-style: italic;
   margin-bottom: var(--spacing-8);
+  background-color: #f1f1f1;
 }
 
 blockquote > :last-child {
@@ -246,7 +247,7 @@ a:focus {
 }
 
 .global-wrapper[data-is-root-path="true"] .bio {
-  margin-bottom: var(--spacing-20);
+  margin-bottom: var(--spacing-10);
 }
 
 .global-header {
@@ -300,6 +301,9 @@ a:focus {
   margin-bottom: var(--spacing-0);
   min-width: 150px;
   border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -khtml-border-radius: 20px;
 }
 
 .blog-post header h1 {
@@ -307,7 +311,7 @@ a:focus {
 }
 
 .blog-post header p {
-  font-size: var(--fontSize-2);
+  font-size: var(--fontSize-0);
   font-family: var(--font-heading);
 }
 

@@ -3,7 +3,7 @@ module.exports = {
     title: `Bhuvaneswaran Balasubramanian`,
     author: {
       name: `Bhuvaneswaran Balasubramanian`,
-      summary: ` I'm a software engineer, lives in Chennai, India. Love to swim, cycling, reading the books.`,
+      summary: ` I'm a software engineer, lives in Chennai, India. Certified Azure DevOps Expert and Developer. Love to travel, swim, cycling, reading history books and take architecture photos. Practicing Zen Buddhism and Minimalism.`,
     },
     description: `Bhuvaneswaran's personal website. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.`,
     siteUrl: `http://www.bhuvaneswaran.com`,
@@ -43,6 +43,13 @@ module.exports = {
             options: {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
+          },
+          {
+            resolve: "gatsby-remark-external-links",
+            options: {
+              target: "_blank",
+              rel: "nofollow noopener noreferrer"
+            }
           },
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
