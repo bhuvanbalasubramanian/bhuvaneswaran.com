@@ -1,14 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Bhuvaneswaran Balasubramanian`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Bhuvaneswaran Balasubramanian`,
+      summary: ` I'm a software engineer, lives in Chennai, India. Love to swim, cycling, reading the books.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Bhuvaneswaran's personal website. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.`,
+    siteUrl: `http://www.bhuvaneswaran.com`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `bhuvanoncode`,
+      linkedin: `bhuvan-balasubramanian`,
     },
   },
   plugins: [
@@ -118,7 +119,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,
