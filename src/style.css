@@ -339,3 +339,18 @@ a:focus {
 footer{
   font-size: 14px;
 }
+
+@media (max-width: 42rem) {
+  blockquote {
+    padding: var(--spacing-3) var(--spacing-0) var(--spacing-3) var(--spacing-4);
+    margin-left: var(--spacing-0);
+  }
+  .bio-avatar{
+    width: 60px !important;
+    height: 60px !important;
+    min-width: 60px;
+  }
+  .bio p{
+    font-size: 1.0rem;
+  }
+}

@@ -4,8 +4,6 @@ date: "2021-04-22T00:00:00.000Z"
 description: "Preparing AZ 204 Developing Solutions for Microsoft Azure? Check out our site for study materials(Microsoft links) for AZ 204 exam objective."
 ---
 
-GatsbyJS is a great option for a static site generator, even if you’re unfamiliar with React.
-
 If you are preparing for AZ 204 exam, this study material helps to take the exam confidently. Developing solution for Azure exam (AZ 204) is a bit tougher than the Azure fundamentals exam(AZ 900). I have taken the exam AZ 204 mid of 2020 and scored 90%.
 
 Questions focused on Azure components and solutions which are used to build apps in Azure cloud. I prepared the AZ 204 exam using the Microsoft document links and really helped to clear the exam. 
