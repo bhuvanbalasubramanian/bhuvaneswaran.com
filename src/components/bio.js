@@ -20,6 +20,7 @@ const Bio = () => {
           }
           social {
             twitter
+            linkedin
           }
         }
       }
@@ -48,7 +49,7 @@ const Bio = () => {
           {` `} Follow me on {` `} 
           <a target='_blank' rel="noreferrer" href={`https://twitter.com/${social?.twitter || ``} `}>
           Twitter
-          </a>,{` `} 
+          </a>,{` `}
           <a target='_blank' rel="noreferrer" href={`https://www.linkedin.com/in/${social?.linkedin || ``} `}>Linkedin</a>.
           <br/><Link to="/about">More about me →</Link>
         </p>

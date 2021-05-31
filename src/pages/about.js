@@ -68,9 +68,9 @@ const AboutPage = () => (
       </span>
     </h3>
     <ul>
-      <li>Cycling: MachCity</li>
+      <li>Cycling: MachCity bike</li>
       <li>Swimming: Freestyle</li>
-      <li>Video games: PS4 pro</li>
+      <li>Gaming console: PS4 pro</li>
     </ul>
 
     <h3>
@@ -79,7 +79,7 @@ const AboutPage = () => (
         🌏
       </span>
     </h3>
-    <p>I have travelled few places out of India.</p>
+    <p>Few places travelled,</p>
     <ul>
       <li>France: Paris</li>
       <li>Netherlands: Amsterdam</li>

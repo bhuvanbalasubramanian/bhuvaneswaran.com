@@ -28,6 +28,8 @@ const BlogIndex = ({ data, location }) => {
       <Seo title="Bhuvaneswaran Balasubramanian" />
       <Bio />
       <blockquote>“We are what we think. All that we are arises with our thoughts. With our thoughts, we make the world.”<br/>- Gautama Buddha(c. 5th to 4th century BCE)</blockquote>
+      <h3>Latest Articles</h3>
+      <hr/>
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
