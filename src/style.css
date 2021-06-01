@@ -359,3 +359,7 @@ footer{
     font-size: 1.0rem;
   }
 }
+
+.about ul {
+  margin-left: var(--spacing-5);
+}

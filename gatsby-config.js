@@ -6,7 +6,7 @@ module.exports = {
       summary: ` I'm a software engineer, lives in Chennai, India. Full Stack developer and Certified Microsoft Azure DevOps Expert. Love to travel, cycling, reading non-fiction books, architecture photography. Practicing Zen habits and Minimalism.`,
     },
     description: `The personal website of Bhuvaneswaran Balasubramanian. Programming, Hobby, Books and Photography`,
-    siteUrl: `http://www.bhuvaneswaran.com`,
+    siteUrl: `https://www.bhuvaneswaran.com`,
     image: `/images/social.png`,
     keywords: `personal wesbite, blog, portfolio, programming`,
     social: {
