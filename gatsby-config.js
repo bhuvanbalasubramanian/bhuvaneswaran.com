@@ -7,7 +7,7 @@ module.exports = {
     },
     description: `The personal website of Bhuvaneswaran Balasubramanian. Programming, Hobby, Books and Photography`,
     siteUrl: `https://www.bhuvaneswaran.com`,
-    image: `/images/social.png`,
+    image: `/social.png`,
     keywords: `personal wesbite, blog, portfolio, programming`,
     social: {
       twitter: `bhuvanoncode`,
@@ -53,12 +53,20 @@ module.exports = {
             options: {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
-          },
+          },          
           {
             resolve: "gatsby-remark-external-links",
             options: {
               target: "_blank",
               rel: "nofollow noopener noreferrer"
+            }
+          },
+          {
+            resolve: 'gatsby-plugin-robots-txt',
+            options: {
+              host: 'https://www.bhuvaneswaran.com',
+              sitemap: 'https://www.bhuvaneswaran.com/sitemap/sitemap-index.xml',
+              policy: [{ userAgent: '*', allow: '/' }]
             }
           },
           `gatsby-remark-prismjs`,
