@@ -18,6 +18,8 @@ const Seo = ({ description, lang, meta, title }) => {
           siteMetadata {
             title
             description
+            image
+            keywords
             social {
               twitter
             }
@@ -26,9 +28,10 @@ const Seo = ({ description, lang, meta, title }) => {
       }
     `
   )
-
+  const image = site.siteMetadata.image
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
+  const keywords = site.siteMetadata.keywords
 
   return (
     <Helmet
@@ -36,11 +39,15 @@ const Seo = ({ description, lang, meta, title }) => {
         lang,
       }}
       title={title}
-      titleTemplate={defaultTitle ? `%s | Personal Website` : null}
+      titleTemplate={defaultTitle ? `%s ` : null}
       meta={[
         {
           name: `description`,
           content: metaDescription,
+        },
+        {
+          name: `keywords`,
+          content: keywords,
         },
         {
           property: `og:title`,
@@ -53,6 +60,10 @@ const Seo = ({ description, lang, meta, title }) => {
         {
           property: `og:type`,
           content: `website`,
+        },
+        {
+          name: `og:image`,
+          content: image,
         },
         {
           name: `twitter:card`,
@@ -70,6 +81,10 @@ const Seo = ({ description, lang, meta, title }) => {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          name: `twitter:image`,
+          content: image,
+        },
       ].concat(meta)}
     />
   )
@@ -86,6 +101,7 @@ Seo.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
+  image: PropTypes.string,
 }
 
 export default Seo

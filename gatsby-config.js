@@ -3,10 +3,12 @@ module.exports = {
     title: `Bhuvaneswaran Balasubramanian`,
     author: {
       name: `Bhuvaneswaran Balasubramanian`,
-      summary: ` I'm a software engineer, lives in Chennai, India. Full Stack developer and Certified Microsoft Azure DevOps Expert. Love to travel, cycling, reading non-fiction books, architecture photography. Practicing Zen Buddhism and Minimalism.`,
+      summary: ` I'm a software engineer, lives in Chennai, India. Full Stack developer and Certified Microsoft Azure DevOps Expert. Love to travel, cycling, reading non-fiction books, architecture photography. Practicing Zen habits and Minimalism.`,
     },
-    description: `Bhuvaneswaran's personal website. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.`,
+    description: `The personal website of Bhuvaneswaran Balasubramanian. Programming, Hobby, Books and Photography`,
     siteUrl: `http://www.bhuvaneswaran.com`,
+    image: `/images/social.png`,
+    keywords: `personal wesbite, blog, portfolio, programming`,
     social: {
       twitter: `bhuvanoncode`,
       linkedin: `bhuvan-balasubramanian`,
@@ -62,6 +64,7 @@ module.exports = {
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
+          `gatsby-plugin-sitemap`,
         ],
       },
     },
@@ -128,8 +131,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Bhuvaneswaran Balasubramanian Blog`,
+        short_name: `Bhuvan`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
