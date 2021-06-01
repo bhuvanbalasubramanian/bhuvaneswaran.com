@@ -14,9 +14,19 @@ const Layout = ({ location, title, children }) => {
     )
   } else {
     header = (
-      <Link className="header-link-home" to="/">
-        {title}
-      </Link>
+      <div className="topnav">
+        <Link className="header-link-home" to="/">
+          {title}
+        </Link>
+        <div className="topnav-right">
+          <Link className="header-link-home" to="/articles">
+            Articles
+          </Link>
+          <Link className="header-link-home" to="/about">
+            About me
+          </Link>
+        </div>
+      </div>
     )
   }
 
@@ -27,8 +37,13 @@ const Layout = ({ location, title, children }) => {
       <footer>
         © {new Date().getFullYear()} - Built with
         {` `}
-        <a href="https://www.gatsbyjs.com" rel="noreferrer" target='_blank'>Gatsby</a>, Hosted by {` `}
-        <a href="https://www.netlify.com" rel="noreferrer" target='_blank'>Netlify</a> 
+        <a href="https://www.gatsbyjs.com" rel="noreferrer" target="_blank">
+          Gatsby
+        </a>
+        , Hosted by {` `}
+        <a href="https://www.netlify.com" rel="noreferrer" target="_blank">
+          Netlify
+        </a>
       </footer>
     </div>
   )
