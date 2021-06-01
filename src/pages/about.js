@@ -1,6 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import { Helmet } from "react-helmet"
 
 const AboutPage = () => (
   <Layout location="sds" title="Home">
@@ -53,6 +54,9 @@ const AboutPage = () => (
       📜 {" "}
       </span>
     </h3>
+
+
+
     <div className="about">
       <ul>
         <li>
@@ -63,6 +67,7 @@ const AboutPage = () => (
           >
             Microsoft Certified: DevOps Engineer Expert
           </a>
+         
         </li>
         <li>
           <a
@@ -85,7 +90,15 @@ const AboutPage = () => (
         <li>Certified Scrum Developer® (CSD)</li>
       </ul>
     </div>
-
+    <div>
+      <div className="badge"><div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="3b67a953-13e4-479e-bd50-8863ec21aa85" data-share-badge-host="https://www.credly.com"></div></div>
+      <div className="badge"><div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="4644f28a-4e5c-4710-8ec2-4d72ce333081" data-share-badge-host="https://www.credly.com"></div></div>
+      <div className="badge"><div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="07ca4339-fd7a-46c0-84f8-3fa7216d8143" data-share-badge-host="https://www.credly.com"></div></div>
+      <Helmet>
+      <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
+      </Helmet>
+    </div>
+    <div className='clear'></div>
     <h3>
       Hobbies{" "}
       <span role="img" aria-label="swimming">

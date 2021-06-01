@@ -363,3 +363,12 @@ footer{
 .about ul {
   margin-left: var(--spacing-5);
 }
+
+.badge{
+  margin-right:10px;
+  float:left;
+}
+
+.clear{
+  clear:both
+}
