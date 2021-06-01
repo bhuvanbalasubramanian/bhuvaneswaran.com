@@ -4,7 +4,7 @@ import Seo from "../components/seo"
 import { Helmet } from "react-helmet"
 
 const AboutPage = () => (
-  <Layout location="sds" title="Home">
+  <Layout location="/" title="Bhuvaneswaran Balasubramanian">
     <Seo title="About me | Bhuvaneswaran Balasubramanian" />
     <h1>About me</h1>
 
