@@ -41,6 +41,7 @@ const AboutPage = () => (
       <li>Languages: Node.js, React, Java, JavaScript, TypeScript, HTML5, CSS3</li>
       <li>Frameworks: Express.js, Nest.js, Spring Boot</li>
       <li>Database: MySql, MongoDB</li>
+      <li>Web Services: REST API, Microservice Architecture</li> 
       <li>Messaging System: Apache Kafka, Redis Cache, Avro</li>
       <li>Test Automation: Protractor, Cypress</li>
       <li>DevOps: CI/CD</li>     
