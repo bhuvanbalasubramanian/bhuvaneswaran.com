@@ -24,6 +24,18 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-gitalk`,
+      options: {
+        config: {
+          clientID: '8884a704754929a36cb1',
+          clientSecret: '6687abe5b564cdb861918af140dd191d02d99f2f',
+          repo: 'bhuvaneswaran.com',
+          owner: 'bhuvanbalasubramanian',
+          admin: ['bhuvanbalasubramanian']
+        }
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,

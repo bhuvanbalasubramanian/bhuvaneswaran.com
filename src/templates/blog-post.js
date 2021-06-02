@@ -1,14 +1,26 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
-
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+
+import Gitalk from 'gatsby-plugin-gitalk'
+import '@suziwen/gitalk/dist/gitalk.css'
 
 const BlogPostTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata?.title || `Title`
   const { previous, next } = data
+
+  const PostTemplate = () => {
+    let gitalkConfig = {
+      id: post.slug || post.id,
+      title:post.frontmatter.title,
+    }
+    return (
+       <Gitalk options={gitalkConfig}/>
+    )
+  }
 
   return (
     <Layout location={location} title={siteTitle}>
@@ -33,6 +45,7 @@ const BlogPostTemplate = ({ data, location }) => {
         <footer>
           <Bio />
         </footer>
+        <PostTemplate/>
       </article>
       <nav className="blog-post-nav">
         <ul
