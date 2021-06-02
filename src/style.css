@@ -396,3 +396,11 @@ footer{
 .topnav-right {
   float: right;
 }
+
+.blog-post footer{
+  padding: var(--spacing-6) var(--spacing-0) var(--spacing-0);
+}
+
+.blog-post .bio {
+  margin-bottom: var(--spacing-6);
+}

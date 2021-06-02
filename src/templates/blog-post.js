@@ -45,7 +45,9 @@ const BlogPostTemplate = ({ data, location }) => {
         <footer>
           <Bio />
         </footer>
+        <hr />
         <PostTemplate/>
+        <hr />
       </article>
       <nav className="blog-post-nav">
         <ul
