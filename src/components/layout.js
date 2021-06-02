@@ -16,7 +16,7 @@ const Layout = ({ location, title, children }) => {
     header = (
       <div className="topnav">
         <Link className="header-link-home" to="/">
-          {title}
+         <img src="/icon.png" align="left" style={{ marginRight:`6px` }}></img> {title}
         </Link>
         <div className="topnav-right">
           <Link className="header-link-home" to="/articles">

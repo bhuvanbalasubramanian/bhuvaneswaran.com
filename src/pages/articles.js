@@ -25,8 +25,8 @@ const Articles = ({ data, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <Seo title="Bhuvaneswaran Balasubramanian" />
-      <h3>Latest Articles</h3>
+      <Seo title="Articles | Bhuvaneswaran Balasubramanian" />
+      <h1>Articles</h1>
       <p>Posts, tutorials, snippets, musings, notes, and everything else.</p>
       <hr/>
       <ol style={{ listStyle: `none` }}>

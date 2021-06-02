@@ -9,7 +9,7 @@ Auto Mouse Mover program allows mouse to move automatically without human intera
 Save the below java program in a file and run it whenever necessary. No third party installation software needed. 
 
 ```java
-package dev.stackbyte;
+package com.bhuvaneswaran;
 
 import java.awt.Robot;
 import java.util.Random;

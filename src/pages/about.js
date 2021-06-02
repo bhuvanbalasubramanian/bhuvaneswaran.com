@@ -27,7 +27,7 @@ const AboutPage = () => (
     <p>
       You can contact me by email at{" "}
       <a href="mailto:bhuvan@bhuvaneswaran.com">bhuvan@bhuvaneswaran.com</a> to
-      say hi! I always appreciate meeting new people.
+      say Hi!
     </p>
 
     <h3>
@@ -54,8 +54,6 @@ const AboutPage = () => (
       📜 {" "}
       </span>
     </h3>
-
-
 
     <div className="about">
       <ul>
