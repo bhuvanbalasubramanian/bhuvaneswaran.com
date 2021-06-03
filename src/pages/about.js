@@ -26,7 +26,7 @@ const AboutPage = () => (
 
     <p>
       You can contact me by email at{" "}
-      <a href="mailto:bhuvan@bhuvaneswaran.com">bhuvan@bhuvaneswaran.com</a> to
+      <a href="mailto:hello@bhuvaneswaran.com">hello@bhuvaneswaran.com</a> to
       say Hi!
     </p>
 
