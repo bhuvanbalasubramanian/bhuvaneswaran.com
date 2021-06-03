@@ -20,7 +20,7 @@ const AboutPage = () => (
     </p>
 
     <p>
-      Being a Polyglot Developer, I have worked in various tools and programming
+      Being a full stack developer, I have worked in various tools and programming
       languages. Java and Javascript are my favourite languages.
     </p>
 
