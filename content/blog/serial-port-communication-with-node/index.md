@@ -5,6 +5,8 @@ description: "Serial ports are used to transfer the data through USB/hardware in
 ---
 Serial ports are used to transfer the data through USB/hardware interfaces. Devices such as USB, Arduino board, IoT devices uses serial port to transfer the data. 
 
+![serialport](/serial-port-communication-with-node.png)
+
 ### Setup virtual serial port
 
 In this article, virtual serial ports has been used to simulate the hardware device. There are many apps are available and recommended one is [**com0com emulator**](http://com0com.sourceforge.net) (free) and [**Virtual Serial Port Driver**](https://www.eltima.com/products/vspdxp/) (free trial).
