@@ -20,7 +20,7 @@ const AboutPage = () => (
     </p>
 
     <p>
-      Being a full stack developer, I have worked in various tools and
+      Being a full stack developer/DevOps engineer, I have worked in various tools and
       programming languages. Java and Javascript are my favourite languages.
     </p>
     
