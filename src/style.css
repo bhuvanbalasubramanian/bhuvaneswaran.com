@@ -356,7 +356,11 @@ footer{
     padding: var(--spacing-3) var(--spacing-3) var(--spacing-3) var(--spacing-4);
     margin-left: var(--spacing-0);
   }
-  .bio-avatar{
+  main .bio .bio-avatar{
+    display:none;
+  }
+  footer .bio .bio-avatar{
+    display:block;
     width: 60px !important;
     height: 60px !important;
     min-width: 60px;
@@ -364,7 +368,9 @@ footer{
   .bio p{
     font-size: 1.0rem;
   }
-
+  .global-header {
+    margin-bottom: var(--spacing-5);
+}
   .topnav a {
     font-size: 17px !important;
   }
