@@ -78,7 +78,7 @@ body {
   font-family: var(--font-body);
   font-size: var(--fontSize-1);
   color: var(--color-text);
-  font-weight:400; 
+  font-weight: 400;
 }
 
 footer {
@@ -221,7 +221,6 @@ blockquote > ol {
 }
 
 table {
-  width: 100%;
   margin-bottom: var(--spacing-8);
   border-collapse: collapse;
   border-spacing: 0.25rem;
@@ -259,7 +258,7 @@ a:focus {
   margin-bottom: var(--spacing-12);
 }
 
-main{
+main {
   clear: both;
 }
 
@@ -304,7 +303,7 @@ main{
 
 .bio p {
   margin-bottom: var(--spacing-0);
-  font-size: 1.0rem;
+  font-size: 1rem;
 }
 
 .bio-avatar {
@@ -347,7 +346,7 @@ main{
   }
 }
 
-footer{
+footer {
   font-size: 14px;
 }
 
@@ -356,21 +355,21 @@ footer{
     padding: var(--spacing-3) var(--spacing-3) var(--spacing-3) var(--spacing-4);
     margin-left: var(--spacing-0);
   }
-  main .bio .bio-avatar{
-    display:none;
+  main .bio .bio-avatar {
+    display: none;
   }
-  footer .bio .bio-avatar{
-    display:block;
+  footer .bio .bio-avatar {
+    display: block;
     width: 60px !important;
     height: 60px !important;
     min-width: 60px;
   }
-  .bio p{
-    font-size: 1.0rem;
+  .bio p {
+    font-size: 1rem;
   }
   .global-header {
     margin-bottom: var(--spacing-5);
-}
+  }
   .topnav a {
     font-size: 17px !important;
   }
@@ -379,16 +378,16 @@ footer{
   margin-left: var(--spacing-5);
 }
 
-.badge{
-  margin-right:10px;
-  float:left;
+.badge {
+  margin-right: 10px;
+  float: left;
 }
 
-.clear{
-  clear:both
+.clear {
+  clear: both;
 }
 
-.topnav{
+.topnav {
   padding-bottom: 40px;
 }
 
@@ -403,10 +402,28 @@ footer{
   float: right;
 }
 
-.blog-post footer{
+.blog-post footer {
   padding: var(--spacing-6) var(--spacing-0) var(--spacing-0);
 }
 
 .blog-post .bio {
   margin-bottom: var(--spacing-6);
+}
+
+.pr-4 {
+  padding-right: 1rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+.font-bold {
+  font-weight: 700;
+}
+.tools-icon {
+  text-align: center;
+}
+.tools-icon img {
+  padding-right: 15px;
 }
