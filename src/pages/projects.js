@@ -25,7 +25,7 @@ const Projects = () => {
         <img
           className="box mb-5"
           alt="utmbuilder-screenshot"
-          src="./utmbuilder-snapshot.png"
+          src="../utmbuilder-snapshot.png"
         />
         <div className="mb-5">
           <a
