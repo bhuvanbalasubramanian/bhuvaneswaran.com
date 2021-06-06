@@ -427,3 +427,29 @@ footer {
 .tools-icon img {
   padding-right: 15px;
 }
+.btn-primary {
+  background-color: var(--color-primary);
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+.text-blue {
+  color: var(--color-primary);
+}
+.tech-italic {
+  font-size: 15px;
+  font-style: italic;
+  padding-bottom: 15px;
+}
+.mb-5 {
+  margin-bottom: 2.5rem !important;
+}
+.box {
+  -webkit-filter: drop-shadow(5px 5px 5px #ccc);
+  filter: drop-shadow(5px 5px 5px #ccc);
+  min-height: 200px;
+  width: 100%;
+  background: white;
+  border-radius: 5px;
+}

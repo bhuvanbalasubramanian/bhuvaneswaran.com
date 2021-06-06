@@ -52,7 +52,7 @@ const Bio = () => {
           Twitter
           </a>,{` `}
           <a target='_blank' rel="noreferrer" href={`https://www.linkedin.com/in/${social?.linkedin || ``} `}>Linkedin</a>. */}
-          <br/><Link to="/about">More about me →</Link>
+          <br/><Link to="/about">More about me →</Link> {` `} {` `} <Link to="/projects">My Projects →</Link>
         </p>
       )}
     </div>
