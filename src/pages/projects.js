@@ -11,7 +11,7 @@ const Projects = () => {
       <section>
         <h2 className="text-blue">UTM Builder for Google Analytics</h2>
         <div className="tech-italic">
-          2021 - React, Gatsby, Javascript, HTML, CSS
+          2021 - React, Gatsby, Javascript
         </div>
         <p>
           I built this app to generate UTM urls to share my blog posts in social
