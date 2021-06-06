@@ -304,7 +304,7 @@ const AboutPage = () => (
               🇩🇰
             </span>
           </td>{" "}
-          <td class="py-2 px-4">Copenhagen, Nordborg</td>
+          <td class="py-2 px-4">Copenhagen, Nordborg & Aarhus</td>
         </tr>
       </table>
     </section>
