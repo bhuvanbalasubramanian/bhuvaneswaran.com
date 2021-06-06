@@ -14,9 +14,9 @@ const Projects = () => {
           2021 - React, Gatsby, Javascript
         </div>
         <p>
-          I built this app to generate UTM urls to share my blog posts in social
+          I built this app to generate UTM to share my blog posts urls in social
           media. UTM codes used to track the website traffic where its coming
-          from and track the traffic in Google Analytics.
+          from and it is tracked in Google Analytics.
         </p>
         <p>
           Earlier, I use to append the campaign details manually and share the url in the Linkedin or Twitter.
