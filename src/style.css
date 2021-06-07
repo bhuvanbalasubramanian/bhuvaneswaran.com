@@ -457,3 +457,7 @@ footer {
 .ml-5{
   margin-left: 25px;
 }
+
+code[class*="language-"], pre[class*="language-"]{
+  font-size: 0.9em !important;
+}
