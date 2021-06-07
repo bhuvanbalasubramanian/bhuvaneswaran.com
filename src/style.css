@@ -209,6 +209,7 @@ blockquote {
   font-style: italic;
   margin-bottom: var(--spacing-8);
   background-color: #f1f1f1;
+  font-size: 16px;
 }
 
 blockquote > :last-child {
