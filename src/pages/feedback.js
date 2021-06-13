@@ -89,7 +89,7 @@ const Feedback = () => {
 
             <div className="form-group">
               <label htmlFor="status">
-                Is this course helpful to you clear the actual exam?{" "}
+                Is this course helpful to you to clear the actual exam?{" "}
                 <span className="required">*</span>{" "}
               </label>
               <div className="custom-control custom-radio">
