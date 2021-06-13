@@ -487,3 +487,13 @@ pre[class*="language-"] {
 textarea{
   font-size: 14px !important;
 }
+iframe {
+  width:100%;
+  height:500px;
+  margin-bottom:3rem;
+  border:2px solid #2c84c7;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 15px 10px #ccc;
+  -moz-box-shadow: 0 15px 10px #ccc;
+  box-shadow: 0 15px 10px #ccc;
+}
