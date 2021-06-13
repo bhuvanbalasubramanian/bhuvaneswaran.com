@@ -35,7 +35,7 @@ const Feedback = () => {
       <Seo title="Udemy course feedback | Bhuvaneswaran Balasubramanian" />
       {initialForm ? (
         <div className="col-md-8 mt-5">
-          <h3>Course feedback form(Instructor)</h3>
+          <h3>Course Feedback Form(Instructor)</h3>
           <form onSubmit={handleOnSubmit}>
             <div className="form-group">
               <label htmlFor="course">
