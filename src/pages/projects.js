@@ -9,6 +9,40 @@ const Projects = () => {
       <h1>Projects</h1>
       <hr />
       <section>
+        <h2 className="text-blue">WordPad - Note Taking app</h2>
+        <div className="tech-italic">
+          2021 - React, Typescript, Material UI
+        </div>
+        <p>
+          I have used many online note taking app but none of them suits my need - Simplity. 
+        All the apps are loaded with many unwanted feature and poor user interface. So, we developed this note taking app with simple UI and privacy in mind.
+        </p>
+        <img
+          className="box mb-5"
+          alt="utmbuilder-screenshot"
+          src="../wordpad-snapshot.png"
+        />
+        <div className="mb-5">
+          <a
+            className="btn-primary"
+            href="https://github.com/bhuvanbalasubramanian/wordpad"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Source
+          </a>
+          <a
+            className="btn-primary"
+            href="https://wordpad.netlify.app"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Demo
+          </a>
+        </div>
+        <hr />
+      </section>
+      <section>
         <h2 className="text-blue">UTM Builder for Google Analytics</h2>
         <div className="tech-italic">
           2021 - React, Gatsby, Javascript
