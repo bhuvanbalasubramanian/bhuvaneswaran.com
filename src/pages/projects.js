@@ -14,8 +14,7 @@ const Projects = () => {
           2021 - React, Typescript, Material UI
         </div>
         <p>
-          I have used many online note taking app but none of them suits my need - Simplity. 
-        All the apps are loaded with many unwanted feature and poor user interface. So, we developed this note taking app with simple UI and privacy in mind.
+          I have used many online note taking app but none of them are suits my need which is simplity. All of the apps are loaded with many unwanted features and poor user interface design. So, I developed this note taking app with simple UI and privacy in mind.
         </p>
         <img
           className="box mb-5"
