@@ -497,3 +497,19 @@ iframe {
   -moz-box-shadow: 0 15px 10px #ccc;
   box-shadow: 0 15px 10px #ccc;
 }
+
+.card-text{
+  margin:0;
+  margin-bottom: 10px;
+}
+
+a.card-link{
+  font-size: 12px;
+}
+
+.card-img-top{
+  height: 250px;
+}
+a:hover{
+  color:#206da9
+}
