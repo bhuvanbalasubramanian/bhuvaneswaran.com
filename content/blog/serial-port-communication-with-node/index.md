@@ -19,11 +19,11 @@ We need to pair the virtual serial ports - one to receive the data and another t
 
 First, we have to create a node project and then need to install [serialport](https://serialport.io) package. I recommend this package since its widely used and many options to customise.
 
-```ssh 
+```bash 
 npm init
 ```
 
-```ssh 
+```bash 
 npm install serialport
 ```
 
@@ -86,30 +86,30 @@ serialPort.on("open", function() {
 
 First, we need to listen the COM port to receive the data. Open new terminal and run below command,
 
-```ssh 
+```bash 
 node receive.js
 ```
 
 Output(Terminal 1)
-```ssh 
+```bash 
 >> -- Connection opened --
 ```
 
 Open another terminal and run the below command
 
-```ssh 
+```bash 
 node send.js
 ```
 
 Output(Terminal 2)
-```ssh 
+```bash 
 >> Message sent successfully
 ```
 
 Message sent to the COM1 and it forward to COM2. Open the first terminal and we can see the message is received like below,
 
 Output(Terminal 1)
-```ssh 
+```bash 
 >> -- Connection opened --
 >> Data received: Hakuna Matata
 ```
