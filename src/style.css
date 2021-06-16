@@ -333,47 +333,8 @@ main {
 .gatsby-highlight {
   margin-bottom: var(--spacing-8);
 }
-
-/* Media queries */
-
-@media (max-width: 42rem) {
-  blockquote {
-    padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-4);
-    margin-left: var(--spacing-0);
-  }
-  ul,
-  ol {
-    list-style-position: inside;
-  }
-}
-
 footer {
   font-size: 14px;
-}
-
-@media (max-width: 42rem) {
-  blockquote {
-    padding: var(--spacing-3) var(--spacing-3) var(--spacing-3) var(--spacing-4);
-    margin-left: var(--spacing-0);
-  }
-  main .bio .bio-avatar {
-    display: none;
-  }
-  footer .bio .bio-avatar {
-    display: block;
-    width: 60px !important;
-    height: 60px !important;
-    min-width: 60px;
-  }
-  .bio p {
-    font-size: 1rem;
-  }
-  .global-header {
-    margin-bottom: var(--spacing-5);
-  }
-  .topnav a {
-    font-size: 14px !important;
-  }
 }
 .about ul {
   margin-left: var(--spacing-5);
@@ -470,46 +431,87 @@ pre[class*="language-"] {
   color: red;
 }
 
-.custom-control{
+.custom-control {
   padding-top: 5px;
   font-size: 14px;
 }
 
-.form-group label{
+.form-group label {
   font-weight: 700;
   margin-bottom: 0.5rem;
 }
-.custom-control-label{
+.custom-control-label {
   margin-left: 0.2rem;
   font-weight: 400;
 }
 
-textarea{
+textarea {
   font-size: 14px !important;
 }
 iframe {
-  width:100%;
-  height:500px;
-  margin-bottom:3rem;
-  border:2px solid #2c84c7;
+  width: 100%;
+  height: 500px;
+  margin-bottom: 3rem;
+  border: 2px solid #2c84c7;
   border-radius: 10px;
   -webkit-box-shadow: 0 15px 10px #ccc;
   -moz-box-shadow: 0 15px 10px #ccc;
   box-shadow: 0 15px 10px #ccc;
 }
 
-.card-text{
-  margin:0;
+.card-text {
+  margin: 0;
   margin-bottom: 10px;
 }
 
-a.card-link{
+a.card-link {
   font-size: 12px;
 }
 
-.card-img-top{
+.card-img-top {
   height: 250px;
 }
-a:hover{
-  color:#206da9
+a:hover {
+  color: #206da9;
+}
+
+/* Media queries */
+
+@media (max-width: 42rem) {
+  blockquote {
+    padding: var(--spacing-0) var(--spacing-0) var(--spacing-0) var(--spacing-4);
+    margin-left: var(--spacing-0);
+  }
+  ul,
+  ol {
+    list-style-position: inside;
+  }
+}
+
+@media (max-width: 42rem) {
+  blockquote {
+    padding: var(--spacing-3) var(--spacing-3) var(--spacing-3) var(--spacing-4);
+    margin-left: var(--spacing-0);
+  }
+  main .bio .bio-avatar {
+    display: none;
+  }
+  footer .bio .bio-avatar {
+    display: block;
+    width: 60px !important;
+    height: 60px !important;
+    min-width: 60px;
+  }
+  .bio p {
+    font-size: 1rem;
+  }
+  .global-header {
+    margin-bottom: var(--spacing-5);
+  }
+  .topnav a {
+    font-size: 14px !important;
+  }
+  .card-img-top {
+    height: 100%;
+  }
 }
