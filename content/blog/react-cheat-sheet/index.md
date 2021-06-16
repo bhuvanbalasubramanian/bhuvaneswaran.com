@@ -1,7 +1,7 @@
 ---
-title: React Cheat Sheet - Tutorial
+title: React Cheat Sheet
 date: "2021-06-16T00:00:00.000Z"
-description: "List of React command line"
+description: "List of React command line to manage the project"
 ---
 
 To create new react project

@@ -3,7 +3,7 @@ module.exports = {
     title: `Bhuvaneswaran Balasubramanian`,
     author: {
       name: `Bhuvaneswaran Balasubramanian`,
-      summary: ` I'm a software engineer, lives in Chennai, India. Full Stack developer and Certified Microsoft Azure DevOps Expert. Love to travel, cycling, reading non-fiction books, architecture photography. Practicing Zen habits and Minimalism.`,
+      summary: ` I'm a software engineer, lives in Chennai, India. Full Stack developer and Certified Microsoft Azure DevOps Expert. Love to travel, cycling, reading non-fiction books, architecture photography. Fan of Minimalism.`,
     },
     description: `The personal website of Bhuvaneswaran Balasubramanian. Programming, Hobby, Books and Photography`,
     siteUrl: `https://www.bhuvaneswaran.com`,

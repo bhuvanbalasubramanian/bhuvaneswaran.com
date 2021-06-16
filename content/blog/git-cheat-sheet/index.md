@@ -1,6 +1,6 @@
 ---
-title: Git Cheat Sheet - Tutorial
-date: "2021-06-16T00:00:00.000Z"
+title: Git Cheat Sheet
+date: "2021-06-15T00:00:00.000Z"
 description: "List of Git commands used in day to day development activities"
 ---
 
