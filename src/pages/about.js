@@ -15,8 +15,8 @@ const AboutPage = () => (
         </span>{" "}
         &nbsp; My name is Bhuvaneswaran Balasubramanian. I was born and raised
         in Chennai, India. I started using computers from the age of 14. Much
-        passionate about computer science that fascinated me to do Bachelor
-        degree in Computer Science Engineering and became a software engineer.
+        passionate about computer science that fascinated me to do bachelor
+        degree in computer science engineering and started my career as a Software Engineer.
       </p>
 
       <p>
