@@ -27,7 +27,7 @@ const Articles = ({ data, location }) => {
     <Layout location={location} title={siteTitle}>
       <Seo title="Articles | Bhuvaneswaran Balasubramanian" />
       <h1>Articles</h1>
-      <p>Posts, tutorials, snippets, musings, notes, and everything else.</p>
+      <p>Posts, tutorials, snippets, notes, and everything else.</p>
       <hr/>
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {

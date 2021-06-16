@@ -9,7 +9,7 @@ const Projects = () => {
       <h1>Projects</h1>
       <hr />
       <section>
-        <h2 className="text-blue">WordPad - Note Taking app</h2>
+        <h2 className="text-blue">1. WordPad - Note Taking app</h2>
         <div className="tech-italic">
           2021 - React, Typescript, Material UI
         </div>
@@ -42,7 +42,7 @@ const Projects = () => {
         <hr />
       </section>
       <section>
-        <h2 className="text-blue">UTM Builder for Google Analytics</h2>
+        <h2 className="text-blue">2. UTM Builder for Google Analytics</h2>
         <div className="tech-italic">
           2021 - React, Gatsby, Javascript
         </div>
