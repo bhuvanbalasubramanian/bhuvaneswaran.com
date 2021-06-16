@@ -1,65 +1,37 @@
 ---
 title: Git Cheat Sheet - Tutorial
 date: "2021-06-16T00:00:00.000Z"
-description: "List of Git commands used day to development activities"
+description: "List of Git commands used in day to day development activities"
 ---
 
-To get Docker version and info
+To initialize git project
 
 ```bash
-$ docker --version
+$ git init
 ```
 
-To get Docker details
+To clear the .gitignore cache
 
 ```bash
-$ docker version
+$ git rm -r --cached .
+$ git add .
+$ git commit -m ".gitignore is now working"
 ```
 
-Build Docker image with tag
+To remove specific file from git cache
 
 ```bash
-docker build -t <image-name> .
+$ git rm --cached filename
 ```
 
-Push Docker image
+To list the remote repos
 
 ```bash
-docker push <image-name>
+$ git remote -v
 ```
 
-Execute Docker image
+To add the remote repo
 
 ```bash
-docker run <image-name>
-docker run --rm -p 3005:3005 <image-name>
-docker run -d -p 5672:5672 -p 15672:15672 <image-name>
-```
-
-List Docker images
-
-```bash
-docker image ls
-```
-
-List Docker containers (running, all, all in quiet mode)
-
-```bash
-docker container ls
-docker container ls --all
-docker container ls -aq
-```
-
-List Docker Networks
-
-```bash
-docker network ls
-docker network inspect bridge
-```
-
-Stop and remove all Docker containers
-
-```bash
-docker stop $(docker ps -a -q)
-docker rm $(docker ps -a -q)
+$ git remote add origin <repo_url>
 ```
