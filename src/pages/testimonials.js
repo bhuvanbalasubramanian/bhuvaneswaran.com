@@ -9,6 +9,30 @@ const Testimonials = () => {
       <h1>Testimonials</h1>
       <hr />
       <section>
+        <h2 className="text-blue">Udemy</h2>
+        <div className="row">
+          <div className="col-md-12">
+            <img
+              className="box box-review mb-5"
+              alt="review1-screenshot"
+              src="../reviews/udemy-review-2.png"
+            />
+            <img
+              className="box box-review mb-5"
+              alt="review1-screenshot"
+              src="../reviews/udemy-review-1.png"
+            />
+            <img
+              className="box box-review mb-5"
+              alt="review1-screenshot"
+              src="../reviews/udemy-review-3.png"
+            />
+          </div>
+        </div>
+      </section>
+      <hr />
+      <section>
+        <h2 className="text-blue">LinkedIn</h2>
         <div className="row">
           <div className="col-md-12">
             <div className="embed-responsive">

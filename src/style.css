@@ -515,3 +515,7 @@ a:hover {
     height: 100%;
   }
 }
+
+.box-review{
+    min-height: auto;
+}
