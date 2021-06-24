@@ -16,7 +16,7 @@ const Layout = ({ location, title, children }) => {
     header = (
       <div className="topnav">
         <Link className="header-link-home" to="/">
-         <img src="/icon.png" align="left" style={{ marginRight:`6px` }} alt='logo'></img> {title}
+          <img src="/icon.png" align="left" style={{ marginRight: `6px` }} alt='logo'></img> {title}
         </Link>
         <div className="topnav-right">
           <Link className="header-link-home" to="/articles">
@@ -24,6 +24,9 @@ const Layout = ({ location, title, children }) => {
           </Link>
           <Link className="header-link-home" to="/projects">
             Projects
+          </Link>
+          <Link className="header-link-home" to="/testimonials">
+            Testimonials
           </Link>
           <Link className="header-link-home" to="/books">
             Books
