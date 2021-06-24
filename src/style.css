@@ -86,7 +86,7 @@ footer {
 }
 
 hr {
-  background: var(--color-accent);
+  background: var(--color-text);
   height: 1px;
   /* border: 0; */
 }

@@ -7,7 +7,6 @@ const Projects = () => {
     <Layout location="." title="Bhuvan">
       <Seo title="Projects | Bhuvaneswaran Balasubramanian" />
       <h1>Projects</h1>
-      <hr />
       <section>
         <h2 className="text-blue">1. WordPad - Note Taking app</h2>
         <div className="tech-italic">

@@ -8,8 +8,7 @@ const Books = () => {
             <Seo title="Books | Bhuvaneswaran Balasubramanian" />
             <h1>Books</h1>
             <section>
-                <p>I usually read books in my free time. I use Kindle Paperwhite rather than physical books, the reason is we can store many books in one device and we can read it at night time as well using dark mode feature.</p>
-                <p>Here is my collection of books which I finished reading.</p>
+                <p>I usually read books in my free time. Here is my collection of books which I finished reading.</p>
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-12">
