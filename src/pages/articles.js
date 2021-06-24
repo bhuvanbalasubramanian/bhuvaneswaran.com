@@ -24,7 +24,7 @@ const Articles = ({ data, location }) => {
   }
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout location={location} title='Bhuvan'>
       <Seo title="Articles | Bhuvaneswaran Balasubramanian" />
       <h1>Articles</h1>
       <p>Posts, tutorials, snippets, notes, and everything else.</p>

@@ -31,7 +31,7 @@ const Feedback = () => {
       })
   }
   return (
-    <Layout location="/" title="Bhuvaneswaran Balasubramanian">
+    <Layout location="/" title="Bhuvan">
       <Seo title="Udemy course feedback | Bhuvaneswaran Balasubramanian" />
       {initialForm ? (
         <div className="col-md-8 mt-5">

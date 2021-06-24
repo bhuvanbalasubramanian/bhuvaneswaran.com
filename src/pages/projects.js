@@ -4,7 +4,7 @@ import Seo from "../components/seo"
 
 const Projects = () => {
   return (
-    <Layout location="." title="Bhuvaneswaran Balasubramanian">
+    <Layout location="." title="Bhuvan">
       <Seo title="Projects | Bhuvaneswaran Balasubramanian" />
       <h1>Projects</h1>
       <hr />
