@@ -23,7 +23,7 @@ const BlogPostTemplate = ({ data, location }) => {
   }
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout location={location} title="Bhuvan">
       <Seo
         title={post.frontmatter.title}
         description={post.frontmatter.description || post.excerpt}
