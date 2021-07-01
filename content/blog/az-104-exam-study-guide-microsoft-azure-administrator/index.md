@@ -8,7 +8,7 @@ If you are preparing for AZ-104 Microsoft Azure Administrator study guide, this 
 
 I have prepared the couple of online resources from Microsoft Docs site based on the AZ-104 objectives and it covers all the topics for the exam.
 
-> Practice Tests: [AZ-104: Microsoft Azure Administrator- Prc Test:UPDATED 2021](https://www.udemy.com/course/az-104-microsoft-azure-administrator-practice-tests-2020/?referralCode=38CB3303B68840353869)
+> Practice Tests: [AZ-104: Microsoft Azure Administrator- Prc Test:UPDATED 2021](https://www.udemy.com/course/az-104-microsoft-azure-administrator-practice-tests-2020/?couponCode=BHUVANJUL21)
 
 ### Manage Azure identities and governance(15-20%)
 
