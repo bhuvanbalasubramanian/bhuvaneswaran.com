@@ -22,11 +22,6 @@ const Layout = ({ location, title, children }) => {
           <Link className="header-link-home" to="/articles">
             Articles
           </Link>
-          /* <a className="header-link-home" href="https://www.udemy.com/user/bhuvaneswaran-balasubramanian/" target="_blank"
-            rel="noreferrer">Courses</a> 
-          <Link className="header-link-home" to="/testimonials">
-            Testimonials
-          </Link> */
           <Link className="header-link-home" to="/projects">
             Projects
           </Link>
