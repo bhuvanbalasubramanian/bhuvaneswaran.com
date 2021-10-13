@@ -8,9 +8,7 @@ If you are preparing for AZ 204 exam, this study material helps to take the exam
 
 Questions focused on Azure components and solutions which are used to build apps in Azure cloud. I prepared the AZ 204 exam using the Microsoft document links and really helped to clear the exam. 
 
-The developer's guide is availble from microsoft, you can check it [here](https://clouddamcdnprodep.azureedge.net/gdc/1862177/original). Also Its highly recommended to take **practice test** before taking the actual exam. The link is given below,
-
-> Practice Tests: [AZ-204:Developing Solutions for Azure- Prc Test:UPDATED 2021](https://www.udemy.com/course/exam-az-204-developing-solutions-for-ms-azure-practice-test/?referralCode=DE83E178300E694B1118)
+The developer's guide is availble from microsoft, you can check it [here](https://clouddamcdnprodep.azureedge.net/gdc/1862177/original). Also Its highly recommended to take **practice test** before taking the actual exam.
 
 ### Develop Azure compute solutions (25-30%)
 
@@ -254,7 +252,5 @@ The developer's guide is availble from microsoft, you can check it [here](https:
     - [Tutorial: Work with Azure storage queues in .NET](https://docs.microsoft.com/en-us/azure/storage/queues/storage-tutorial-queues?tabs=dotnet)
 
 I hope you enjoyed all the Microsoft Docs for AZ-204 Study Guide. I recommend you to take practice tests before appearing for official exam, so that you will be confident in the actual exam.
-
-> [AZ-204:Developing Solutions for Azure- Prc Test:UPDATED 2021](https://www.udemy.com/course/exam-az-204-developing-solutions-for-ms-azure-practice-test/?referralCode=DE83E178300E694B1118)
 
 Happy blogging!

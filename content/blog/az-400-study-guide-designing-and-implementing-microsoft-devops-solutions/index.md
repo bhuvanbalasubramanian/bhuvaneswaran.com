@@ -8,8 +8,6 @@ If you are preparing for AZ-400 Microsoft DevOps Solutions study guide, this stu
 
 I have prepared the couple of online resources from Microsoft Docs site based on the AZ-400 objectives and it covers all the topics for the exam.
 
-> Practice Tests: [AZ-400 Microsoft Azure DevOps Expert - Prc Test:UPDATED 2021](https://www.udemy.com/course/az-400-microsoft-azure-devops-expert-prc-testupdated-2020-s/?referralCode=C4D94279B68D5D923FAD)
-
 ### Develop an Instrumentation Strategy (5-10%)
 
 #### Design and implement logging
@@ -390,7 +388,5 @@ I have prepared the couple of online resources from Microsoft Docs site based on
 ---
 
 I hope you enjoyed all the Microsoft Docs for AZ-400 Study Guide. I recommend you to take practice tests before appearing for official exam, so that you will be confident in the actual exam.
-
-> Practice Tests: [AZ-400 Microsoft Azure DevOps Expert - Prc Test:UPDATED 2021](https://www.udemy.com/course/az-400-microsoft-azure-devops-expert-prc-testupdated-2020-s/?referralCode=C4D94279B68D5D923FAD)
 
 Happy blogging!
