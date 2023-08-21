@@ -6,7 +6,7 @@ description: "Auto Mouse Mover or Jiggler program for desktop activity in java c
 
 Auto Mouse Mover program allows mouse to move automatically without human interaction and keeps the computer without log off. This code will be usefull when we run any automation code in our desktop and system never goes to sleep mode.
 
-Save the below java program in a file and run it whenever necessary. No third party installation software needed. 
+Save the below java program in a file and run it whenever necessary. No third party installation software needed.. 
 
 ```java
 package com.bhuvaneswaran;
