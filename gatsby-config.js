@@ -1,9 +1,12 @@
 module.exports = {
+  flags: {
+    DEV_SSR: true,
+  },
   siteMetadata: {
     title: `Bhuvaneswaran Balasubramanian`,
     author: {
       name: `Bhuvaneswaran Balasubramanian`,
-      summary: ` I'm a software engineer, lives in Chennai, India. Full Stack developer and Certified Microsoft Azure DevOps Expert. Love to travel, cycling, reading non-fiction books, architecture photography. Fan of Minimalism.`,
+      summary: ` I'm a software engineer, lives in Chennai, India. Full Stack Developer. Love to travel, cycling, reading non-fiction books, architecture photography. Fan of Minimalism.`,
     },
     description: `The personal website of Bhuvaneswaran Balasubramanian. Programming, Hobby, Books and Photography`,
     siteUrl: `https://www.bhuvaneswaran.com`,

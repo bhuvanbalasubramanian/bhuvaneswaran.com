@@ -20,14 +20,14 @@ const AboutPage = () => (
       </p>
 
       <p>
-        Being a full stack developer / DevOps engineer, I have worked in various
-        tools and programming languages. Java and Javascript are my favourite
+        Being a full stack developer, I have worked in various
+        tools and programming languages. Typescript and Python are my favourite
         languages.
       </p>
 
       <p>
         You can contact me by email at{" "}
-        <a href="mailto:hello@bhuvaneswaran.com">hello@bhuvaneswaran.com</a> to
+        <a href="mailto:bhuvan@bhuvaneswaran.com">bhuvan@bhuvaneswaran.com</a> to
         say Hi!
       </p>
     </section>
@@ -40,40 +40,40 @@ const AboutPage = () => (
         </span>
       </h3>
       <div className="about">
-        <table class="text-base text-gray-700">
+        <table className="text-base text-gray-700">
           <tr>
-            <td class="font-bold py-2 pr-4">Languages</td>{" "}
-            <td class="py-2 px-4">
+            <td className="font-bold py-2 pr-4">Languages</td>{" "}
+            <td className="py-2 px-4">
               Node.js, React, Java, JavaScript, TypeScript, HTML5, CSS3
             </td>
           </tr>{" "}
           <tr>
-            <td class="font-bold py-2 pr-4">Frameworks</td>{" "}
-            <td class="py-2 px-4">Express.js, Nest.js, Spring Boot</td>
+            <td className="font-bold py-2 pr-4">Frameworks</td>{" "}
+            <td className="py-2 px-4">Express.js, Nest.js</td>
           </tr>{" "}
           <tr>
-            <td class="font-bold py-2 pr-4">Database</td>
-            <td class="py-2 px-4">MySql, MongoDB</td>
+            <td className="font-bold py-2 pr-4">Database</td>
+            <td className="py-2 px-4">MySql, MongoDB</td>
           </tr>{" "}
           <tr>
-            <td class="font-bold py-2 pr-4">Web Services</td>{" "}
-            <td class="py-2 px-4">REST API, Microservice Architecture</td>
+            <td className="font-bold py-2 pr-4">Web Services</td>{" "}
+            <td className="py-2 px-4">REST API, Microservice Architecture</td>
           </tr>
           <tr>
-            <td class="font-bold py-2 pr-4">Messaging System</td>{" "}
-            <td class="py-2 px-4">Apache Kafka, Redis Cache, Avro</td>
+            <td className="font-bold py-2 pr-4">Messaging System</td>{" "}
+            <td className="py-2 px-4">Apache Kafka, Redis Cache, Avro</td>
           </tr>
           <tr>
-            <td class="font-bold py-2 pr-4">Test Automation</td>{" "}
-            <td class="py-2 px-4">Protractor, Cypress</td>
+            <td className="font-bold py-2 pr-4">Test Automation</td>{" "}
+            <td className="py-2 px-4">Protractor, Cypress</td>
           </tr>
           <tr>
-            <td class="font-bold py-2 pr-4">Cloud</td>{" "}
-            <td class="py-2 px-4">Microsoft Azure</td>
+            <td className="font-bold py-2 pr-4">Cloud</td>{" "}
+            <td className="py-2 px-4">Microsoft Azure</td>
           </tr>
         </table>
 
-        <div class="tools-icon">
+        <div className="tools-icon">
           <img
             src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"
             alt="nodejs"
@@ -158,22 +158,22 @@ const AboutPage = () => (
         </span>
       </h3>
       <div className="about">
-        <table class="text-base text-gray-700">
+        <table className="text-base text-gray-700">
           <tr>
-            <td class="font-bold py-2 pr-4">DevOps Engineer</td>
-            <td class="py-2 px-4">Microsoft DevOps Engineer Expert</td>
+            <td className="font-bold py-2 pr-4">DevOps Engineer</td>
+            <td className="py-2 px-4">Microsoft DevOps Engineer Expert</td>
           </tr>
           <tr>
-            <td class="font-bold py-2 pr-4">Cloud Developer</td>
-            <td class="py-2 px-4">Microsoft Azure Developer Associate</td>
+            <td className="font-bold py-2 pr-4">Cloud Developer</td>
+            <td className="py-2 px-4">Microsoft Azure Developer Associate</td>
           </tr>
           <tr>
-            <td class="font-bold py-2 pr-4">EA</td>
-            <td class="py-2 px-4">Certified TOGAF 9.2 Enterprise Architect</td>
+            <td className="font-bold py-2 pr-4">EA</td>
+            <td className="py-2 px-4">Certified TOGAF 9.2 Enterprise Architect</td>
           </tr>
           <tr>
-            <td class="font-bold py-2 pr-4">Agile</td>
-            <td class="py-2 px-4">Certified Scrum Developer® (CSD)</td>
+            <td className="font-bold py-2 pr-4">Agile</td>
+            <td className="py-2 px-4">Certified Scrum Developer® (CSD)</td>
           </tr>
         </table>
       </div>
@@ -187,42 +187,42 @@ const AboutPage = () => (
           ⛷
         </span>
       </h3>
-      <table class="text-base text-gray-700">
+      <table className="text-base text-gray-700">
         <tr>
-          <td class="font-bold py-2 pr-4">
+          <td className="font-bold py-2 pr-4">
             Reading{" "}
             <span role="img" aria-label="books">
               📚
             </span>
           </td>{" "}
-          <td class="py-2 px-4">Kindle Paperwhite (10th gen)</td>
+          <td className="py-2 px-4">Kindle Paperwhite (10th gen)</td>
         </tr>{" "}
         <tr>
-          <td class="font-bold py-2 pr-4">
+          <td className="font-bold py-2 pr-4">
             Cycling{" "}
             <span role="img" aria-label="cycle">
               🚴‍♂️
             </span>
           </td>{" "}
-          <td class="py-2 px-4">MachCity bike</td>
+          <td className="py-2 px-4">MachCity bike</td>
         </tr>{" "}
         <tr>
-          <td class="font-bold py-2 pr-4">
+          <td className="font-bold py-2 pr-4">
             Swimming{" "}
             <span role="img" aria-label="swim">
               🏊
             </span>
           </td>
-          <td class="py-2 px-4">Freestyle</td>
+          <td className="py-2 px-4">Freestyle</td>
         </tr>{" "}
         <tr>
-          <td class="font-bold py-2 pr-4">
+          <td className="font-bold py-2 pr-4">
             Gaming console{" "}
             <span role="img" aria-label="game">
               🎮
             </span>
           </td>{" "}
-          <td class="py-2 px-4">PS4 pro</td>
+          <td className="py-2 px-4">PS4 pro</td>
         </tr>
       </table>
     </section>
@@ -269,42 +269,51 @@ const AboutPage = () => (
       </h3>
       <p>Few places I travelled,</p>
 
-      <table class="text-base text-gray-700">
+      <table className="text-base text-gray-700">
         <tr>
-          <td class="font-bold py-2 pr-4">
+          <td className="font-bold py-2 pr-4">
             France{" "}
             <span role="img" aria-label="game">
               🇫🇷
             </span>
           </td>{" "}
-          <td class="py-2 px-4">Paris</td>
+          <td className="py-2 px-4">Paris</td>
         </tr>{" "}
         <tr>
-          <td class="font-bold py-2 pr-4">
+          <td className="font-bold py-2 pr-4">
             Netherlands{" "}
             <span role="img" aria-label="game">
               🇳🇱
             </span>
           </td>{" "}
-          <td class="py-2 px-4">Amsterdam</td>
+          <td className="py-2 px-4">Amsterdam</td>
         </tr>{" "}
         <tr>
-          <td class="font-bold py-2 pr-4">
+          <td className="font-bold py-2 pr-4">
             Germany{" "}
             <span role="img" aria-label="game">
               🇩🇪
             </span>
           </td>{" "}
-          <td class="py-2 px-4">Hamburg</td>
+          <td className="py-2 px-4">Hamburg</td>
         </tr>{" "}
         <tr>
-          <td class="font-bold py-2 pr-4">
+          <td className="font-bold py-2 pr-4">
+            Italy{" "}
+            <span role="img" aria-label="game">
+              🇮🇹
+            </span>
+          </td>{" "}
+          <td className="py-2 px-4">Venice, Rome, Florence</td>
+        </tr>{" "}
+        <tr>
+          <td className="font-bold py-2 pr-4">
             Denmark{" "}
             <span role="img" aria-label="game">
               🇩🇰
             </span>
           </td>{" "}
-          <td class="py-2 px-4">Copenhagen, Nordborg & Aarhus</td>
+          <td className="py-2 px-4">Copenhagen, Nordborg & Aarhus</td>
         </tr>
       </table>
     </section>
@@ -319,7 +328,7 @@ const AboutPage = () => (
       <p>
         You can follow me on{" "}
         <a
-          href="https://twitter.com/BhuvanOnCode"
+          href="https://twitter.com/heybhuvan"
           target="_blank"
           rel="noreferrer"
         >
@@ -327,7 +336,7 @@ const AboutPage = () => (
         </a>
         {", "}
         <a
-          href="https://www.linkedin.com/in/bhuvan-balasubramanian/"
+          href="https://www.linkedin.com/in/bhuvaneswaran-balasubramanian/"
           target="_blank"
           rel="noreferrer"
         >

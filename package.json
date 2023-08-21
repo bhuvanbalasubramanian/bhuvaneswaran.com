@@ -1,15 +1,19 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "bhuvaneswaran-blog",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Bhuvaneswaran's Personal website",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Bhuvaneswaran Balasubramanian <bhuvan@bhuvaneswaran.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "engines": {
+    "node": "12.18.0"
   },
   "dependencies": {
     "@fontsource/inter": "^4.4.1",
     "bootstrap": "^5.0.1",
+    "caniuse-lite": "^1.0.30001522",
     "gatsby": "^3.4.1",
     "gatsby-plugin-draft": "^0.1.0",
     "gatsby-plugin-feed": "^3.4.0",
