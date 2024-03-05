@@ -13,20 +13,11 @@ const AboutPage = () => (
         <span role="img" aria-label="hello">
           👋
         </span>{" "}
-        &nbsp; My name is Bhuvaneswaran Balasubramanian. I was born and raised
-        in Chennai, India. I started using computers from the age of 14.
-        Much passionate about computer science that fascinated me to do bachelor
-        degree(B.E) in computer science engineering and masters(M.Tech) in Artificial Intelligence and Data Science.
+        &nbsp; My name is Bhuvaneswaran Balasubramanian, and I'm from Chennai, India. I've been using computers since I was 14 years old and I really love learning about how they work. That's why I studied Computer Science Engineering for my bachelor's degree and later focused on Artificial Intelligence and Data Science for my master's.
       </p>
       
       <p>
-        I have started my career as a Software Engineer and currently working as a Software Development Lead in Denmark based company in Chennai.
-      </p>
-
-      <p>
-        Being a full stack developer, I have worked in various
-        tools and programming languages. Typescript and Python are my favourite
-        languages.
+      I started my career as a Software Engineer and now I'm a Software Development Lead at a company based in Denmark but located in Chennai. I work with lots of different tools and programming languages, but my favorites are TypeScript and Python.
       </p>
 
       <p>
@@ -235,29 +226,17 @@ const AboutPage = () => (
       <h3> Books <span role="img" aria-label="booklist">
         📚
       </span></h3>
-      <p>Here is my collection of books which I finished reading.</p>
+      <p>Here are the books I've completed reading.</p>
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
             <div className="row">
-              <div className='col-sm-3'>
                 <div className="card">
-                  <img className="card-img-top" src="../books/book2.jpg" alt="tuesdaywithmorrie_cover" />
                   <div className="card-body">
-                    <a href="https://www.goodreads.com/book/show/6900.Tuesdays_with_Morrie" className="card-link" target="_blank"
-                      rel="noreferrer"><h5 className="card-text">Tuesdays with Morrie</h5></a>
+                    <a href="https://fable.co/bhuvaneswaran-175692125177" className="card-link" target="_blank"
+                      rel="noreferrer"><h5 className="card-text">Fable</h5></a>
                   </div>
                 </div>
-              </div>
-              <div className='col-sm-3'>
-                <div className="card">
-                  <img className="card-img-top" src="../books/book1.jpg" alt="thealchemist_cover" />
-                  <div className="card-body">
-                    <a href="https://www.goodreads.com/book/show/18144590-the-alchemist" className="card-link" target="_blank"
-                      rel="noreferrer"><h5 className="card-text">The Alchemist</h5></a>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
