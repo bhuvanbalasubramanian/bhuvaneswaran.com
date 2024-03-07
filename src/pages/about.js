@@ -223,6 +223,28 @@ const AboutPage = () => (
     </section>
     <hr />
     <section>
+      <h3>Physical Exercise <span role="img" aria-label="booklist">
+      🏃🏽
+      </span></h3>
+      <p>Here I am tracking my physical activities</p>
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-12">
+            <div className="row">
+                <div className="card">
+                <img className="card-img-top" src="../images/starva.png" alt="starva_icon" />
+                  <div className="card-body">
+                    <a href="https://www.strava.com/athletes/bhuvaneswaran" className="card-link" target="_blank"
+                      rel="noreferrer"><h5 className="card-text">Starva</h5></a>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <section>
       <h3> Books <span role="img" aria-label="booklist">
         📚
       </span></h3>
@@ -232,6 +254,7 @@ const AboutPage = () => (
           <div className="col-sm-12">
             <div className="row">
                 <div className="card">
+                <img className="card-img-top" src="../images/fable.png" alt="fable_icon" />
                   <div className="card-body">
                     <a href="https://fable.co/bhuvaneswaran-175692125177" className="card-link" target="_blank"
                       rel="noreferrer"><h5 className="card-text">Fable</h5></a>
