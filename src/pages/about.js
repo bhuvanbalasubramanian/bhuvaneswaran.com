@@ -212,6 +212,15 @@ const AboutPage = () => (
         </tr>{" "}
         <tr>
           <td className="font-bold py-2 pr-4">
+            Meditation{" "}
+            <span role="img" aria-label="game">
+            🧘
+            </span>
+          </td>{" "}
+          <td className="py-2 px-4">Mindfulness</td>
+        </tr>
+        <tr>
+          <td className="font-bold py-2 pr-4">
             Gaming console{" "}
             <span role="img" aria-label="game">
               🎮
@@ -226,13 +235,12 @@ const AboutPage = () => (
       <h3>Physical Exercise <span role="img" aria-label="booklist">
       🏃🏽
       </span></h3>
-      <p>Here I am tracking my physical activities</p>
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
             <div className="row">
                 <div className="card">
-                <img className="card-img-top" src="../images/starva.png" alt="starva_icon" />
+                <img className="card-img-top" src="./starva.png" alt="starva_icon" />
                   <div className="card-body">
                     <a href="https://www.strava.com/athletes/bhuvaneswaran" className="card-link" target="_blank"
                       rel="noreferrer"><h5 className="card-text">Starva</h5></a>
@@ -248,16 +256,16 @@ const AboutPage = () => (
       <h3> Books <span role="img" aria-label="booklist">
         📚
       </span></h3>
-      <p>Here are the books I've completed reading.</p>
       <div className="container">
         <div className="row">
           <div className="col-sm-12">
             <div className="row">
                 <div className="card">
-                <img className="card-img-top" src="../images/fable.png" alt="fable_icon" />
                   <div className="card-body">
                     <a href="https://fable.co/bhuvaneswaran-175692125177" className="card-link" target="_blank"
-                      rel="noreferrer"><h5 className="card-text">Fable</h5></a>
+                      rel="noreferrer">
+                        <img className="card-img-top" src="./fable.png" alt="fable_icon" />
+                        <h5 className="card-text">Fable</h5></a>
                   </div>
                 </div>
             </div>
